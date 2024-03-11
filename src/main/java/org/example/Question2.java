@@ -9,7 +9,9 @@ public class Question2 {
         int number;
         System.out.print("Digite um número para verificar se ele faz ou não parte da sequência fibonacci: ");
         number = Integer.parseInt(sc.nextLine());
+
         sc.close();
+
         isFib(number);
     }
     public static void isFib(int x) {
